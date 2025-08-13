@@ -1,0 +1,17 @@
+Package: stefan
+Title: Run R code on remote servers
+Version: 0.0.0.9000
+Authors@R: 
+    person("Jonas", "Lieth", , "jonas.lieth@gesis.org", role = c("aut", "cre"))
+Description: Runs code on remote server over SSH. Tries to mimic local
+    environments on the remote side and tries to transfer as much information
+    from the remote side to the local side.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Depends:
+    R (> 4.2.0)
+Imports: 
+    rlang,
+    ssh
